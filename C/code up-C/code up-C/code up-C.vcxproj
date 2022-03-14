@@ -251,7 +251,25 @@
     <ClCompile Include="1039.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="1040.c" />
+    <ClCompile Include="1040.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="1041.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="1042.c" />
+    <ClCompile Include="1043.c" />
+    <ClCompile Include="1044.c" />
+    <ClCompile Include="1045.c" />
+    <ClCompile Include="1046.c" />
+    <ClCompile Include="1047.c" />
+    <ClCompile Include="1048.c" />
+    <ClCompile Include="1049.c" />
+    <ClCompile Include="1050.c" />
+    <ClCompile Include="1051.c" />
+    <ClCompile Include="1052.c" />
+    <ClCompile Include="1053.c" />
+    <ClCompile Include="1054.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
