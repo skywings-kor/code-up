@@ -2,17 +2,13 @@
 //#pragma warning (disable:4996)
 //int main(void)
 //{
-//	int a, b;
+//	int a,b;
+//
 //
 //	scanf("%d %d", &a,&b);
 //
-//	if (a && b)
-//	{
-//		printf("1");
-//	}
+//	printf("%d", a & b);
 //
-//	else
-//	{
-//		printf("0");
-//	}
+//
+//	return 0;
 //}
