@@ -1,20 +1,23 @@
-#include<stdio.h>
-#include<stdlib.h>
-#pragma warning (disable:4996)
-
-int main(void)
-{
-	char user;
-	
-	scanf("%c", &user);
-	for (int i = user; i<='q'; i++)
-	{
-		
-		printf("%c\n", i);
-		
-
-	}
-
-
-
-}
+//#include<stdio.h>
+//#include<stdlib.h>
+//#pragma warning (disable:4996)
+//
+//int main(void)
+//{
+//	char user;
+//	
+//	user = "";
+//	for (int i = 1; ; i++)
+//	{
+//		scanf("%c ", &user);
+//		printf("%c\n", user);
+//		if (user == 'q')
+//		{
+//			break;
+//		}
+//		
+//	}
+//
+//
+//
+//}
