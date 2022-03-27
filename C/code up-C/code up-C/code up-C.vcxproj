@@ -296,6 +296,19 @@
     <ClCompile Include="1078.c" />
     <ClCompile Include="1079.c" />
     <ClCompile Include="1080.c" />
+    <ClCompile Include="1081.c" />
+    <ClCompile Include="1082.c" />
+    <ClCompile Include="1083.c" />
+    <ClCompile Include="1084.c" />
+    <ClCompile Include="1085.c" />
+    <ClCompile Include="1086.c" />
+    <ClCompile Include="1087.c" />
+    <ClCompile Include="1088.c" />
+    <ClCompile Include="1089.c" />
+    <ClCompile Include="1090.c" />
+    <ClCompile Include="1091.c" />
+    <ClCompile Include="1092.c" />
+    <ClCompile Include="1093.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

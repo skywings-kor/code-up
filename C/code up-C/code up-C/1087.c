@@ -4,20 +4,20 @@
 //
 //int main(void)
 //{
-//	int user;
+//	int a;
 //	int res;
 //	res = 0;
-//	scanf("%d", &user);
+//	scanf("%d", &a);
 //
-//	for (int i = 1;i<=1000 ; i++)
+//	for (int i = 1;; i++)
 //	{
 //		res = i + res;
-//		if ((res==user)||(user<=res))
+//		if (a <= res)
 //		{
-//			printf("%d", i);
+//			printf("%d",res);
 //			break;
 //		}
 //	}
-//
+//	return 0;
 //
 //}
