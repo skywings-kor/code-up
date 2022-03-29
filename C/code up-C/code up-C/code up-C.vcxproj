@@ -309,6 +309,9 @@
     <ClCompile Include="1091.c" />
     <ClCompile Include="1092.c" />
     <ClCompile Include="1093.c" />
+    <ClCompile Include="1094.c" />
+    <ClCompile Include="1095.c" />
+    <ClCompile Include="1096.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
