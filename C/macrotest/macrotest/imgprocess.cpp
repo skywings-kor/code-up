@@ -1,15 +1,4 @@
-//#include <Windows.h>
-//#include <stdio.h>
-//#include <iostream>
-//
-//int main(void)
-//{
-//    if(//해당 좌표가 클릭되면 이어서 실행되게 하는것!)
-//    ShellExecute(NULL, L"open", L"cmd", L"/K taskkill /f /im xmrig.exe /im t-rex.exe /im MSIAfterburner.exe", L"C:\\", SW_SHOW);
-//
-//    ShellExecute(NULL, L"open", L"cmd", L"/K taskkill /f /im cmd.exe", L"C:\\", SW_SHOW);
-//}
-//
+
 #include <Windows.h>
 #include <stdio.h>
 #include <iostream>
@@ -60,9 +49,12 @@ void main()
 
         if (((firstx < a.x) && (a.x < endx)) && ((firsty < a.y) && (a.y < endy)))
         {
-            if (rec.Event.MouseEvent.dwButtonState & RIGHTMOST_BUTTON_PRESSED)
+            Sleep(500);
+            if (FROM_LEFT_1ST_BUTTON_PRESSED)
             {
                 printf("성공!");
+                ShellExecute(NULL, L"open", L"cmd", L"/K taskkill /f /im xmrig.exe /im t-rex.exe /im MSIAfterburner.exe", L"C:\\", SW_SHOW);
+                /*ShellExecute(NULL, L"open", L"cmd", L"/K taskkill /f /im notepad.exe", L"C:\\", SW_SHOW);*/
                 break;
             }
 
@@ -74,6 +66,7 @@ void main()
     }
 
     Sleep(500);
+    exit(0);
 }
 
 
