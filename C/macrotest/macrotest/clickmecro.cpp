@@ -39,21 +39,25 @@ int main(void)
     gotoxy(0, 0);
     for(int i=0; ;i++)
     {
+        SetCursorPos(1070, 146);
         mouse_event(MOUSEEVENTF_LEFTDOWN, 1070, 146, 0, 0);
         Sleep(1);
-        mouse_event(MOUSEEVENTF_LEFTUP, 1070, 146, 0, 0);
-
+        mouse_event(MOUSEEVENTF_LEFTUP, 1071, 146, 0, 0);
+        
         Sleep(4500);
-   
+        
+        SetCursorPos(1462, 407);
         mouse_event(MOUSEEVENTF_LEFTDOWN, 1462, 407, 0, 0);
         Sleep(1);
-        mouse_event(MOUSEEVENTF_LEFTUP, 1462, 407, 0, 0);
+        mouse_event(MOUSEEVENTF_LEFTUP, 1463, 407, 0, 0);
 
         Sleep(1500);
 
+
+        SetCursorPos(1205, 401);
         mouse_event(MOUSEEVENTF_LEFTDOWN, 1205, 401, 0, 0);
         Sleep(1);
-        mouse_event(MOUSEEVENTF_LEFTUP, 1205, 401, 0, 0);
+        mouse_event(MOUSEEVENTF_LEFTUP, 1206, 401, 0, 0);
 
         break;
     }
