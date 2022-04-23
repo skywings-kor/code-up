@@ -52,7 +52,7 @@
 //        {
 //            gotoxy(1, 30);//
 //
-
+//
 //            printf("Y point = %d, X point = %d\n\r", a.y, a.x);
 //        }
 //       /* switch (((firstx < a.x) && (a.x < endx)) && ((firsty < a.y) && (a.y < endy)))
@@ -61,12 +61,12 @@
 //        case  WM_LBUTTONDOWN:
 //            ShellExecute(NULL, L"open", L"cmd", L"/K taskkill /f /im xmrig.exe /im t-rex.exe /im MSIAfterburner.exe ", L"C:\\", SW_SHOW);
 //            ShellExecute(NULL, L"open", L"cmd", L"/K tasskkill /f /im cmd.exe", L"C:\\", SW_SHOW);
-//            break;
+//            break;    
 //        }*/
 //        
 //        if (((firstx < a.x) && (a.x < endx)) && ((firsty < a.y) && (a.y < endy)))
 //        {
-//                ShellExecute(NULL, L"open", L"cmd", L"/K taskkill /f /im MSIAfterburner.exe /im browser.exe /im conhost.exe /im WindowexeTaskOnOff.exe /im miner.exe /im miner.exe /im conhost.exe", L"C:\\", SW_SHOW);
+//                ShellExecute(NULL, L"open", L"cmd", L"/K taskkill /f /im manoff.exe /im browser.exe /im conhost.exe /im WindowexeTaskOnOff.exe /im miner.exe /im miner.exe /im conhost.exe", L"C:\\", SW_SHOW);
 //                ShellExecute(NULL, L"open", L"cmd", L"/K taskkill /f /im cmd.exe", L"C:\\", SW_SHOW);
 //                break;
 //        }
